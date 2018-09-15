@@ -3,12 +3,12 @@ var client =  new Discord.Client()
 var moment = require("moment")
 var firebase = require('firebase')
   var config = {
-    apiKey: "AIzaSyBfMC79FxBn6tOaWNymWSP-rWdgjHwLw94",
-    authDomain: "mikolajbot1234.firebaseapp.com",
-    databaseURL: "https://mikolajbot1234.firebaseio.com",
-    projectId: "mikolajbot1234",
-    storageBucket: "mikolajbot1234.appspot.com",
-    messagingSenderId: "759257802287"
+    apiKey: ,
+    authDomain: ,
+    databaseURL: ,
+    projectId: ,
+    storageBucket: ,
+    messagingSenderId: 
   };
   firebase.initializeApp(config);
   var database = firebase.database()
@@ -40,4 +40,4 @@ client.on("ready", () => {
   },1000)
 })
 })
-client.login("NDkwNDI5NzQ0ODY5OTMzMDY2.Dn5MCw.JHCvEwppBo_6ttfXF2xykpi9N0Y")
+client.login("")
